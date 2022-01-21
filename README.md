@@ -1,7 +1,7 @@
 # bastille-postgres
 [Bastille](https://github.com/bastillebsd/bastille) template for running PostgreSQL server in a FreeBSD jail
 
-By default it installs the recent version of PostgreSQL (13) avilable in ports. You can use `ARG` option to choose a different version while applying the template (see usage).
+By default it installs the recent version of PostgreSQL (14) avilable in ports. You can use `ARG` option to choose a different version while applying the template (see usage).
 
 ## Bootstrap
 
