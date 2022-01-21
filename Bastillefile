@@ -1,6 +1,6 @@
 CONFIG set sysvshm=new
 RESTART
-ARG version=13
+ARG version=14
 PKG postgresql${version}-server
 SYSRC postgresql_enable=YES
 CMD if [ ! -e /var/db/postgres/data${version} ];then service postgresql initdb; service postgresql start; fi
